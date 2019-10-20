@@ -1,12 +1,8 @@
 @import "bootstrap";
 
-body {
-  background: image_url('black.png');
-  text-align: center;
-}
 
 h1 {
-  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-family: 'Hepta Slab', serif;
   font-weight: 600;
   letter-spacing: -1.5px;
   color: teal;
@@ -19,6 +15,10 @@ h2 {
   letter-spacing: -1.5px;
   color: purple;
   text-align: center;
+}
+
+background {
+  color: black;
 }
 
 
