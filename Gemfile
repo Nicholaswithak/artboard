@@ -28,7 +28,7 @@ gem 'jbuilder', '~> 2.5'
 # gem 'bcrypt', '~> 3.1.7'
 
 # Use ActiveStorage variant
-# gem 'mini_magick', '~> 4.8'
+gem 'mini_magick'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
@@ -62,7 +62,7 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'jquery-rails'
-gem 'popper_js', '~> 1.11.1'
+gem 'popper_js', '~> 1.14.3'
 gem 'bootstrap', '~> 4.3.1'
 
 source 'https://rails-assets.org' do
