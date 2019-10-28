@@ -15,4 +15,7 @@ class HomesController < ApplicationController
     params.require(:home).permit(:name, :email)
   end
 
+  def show
+  end
+
 end

@@ -1,5 +1,7 @@
 
-<h1>WELCOME TO MY PORTFOLIO
+
+<a href="/homes/1">Show Page</a>
+<h1>- JUST ANOTHER BOOKSTORE - 
 </h1>
 
 <!DOCTYPE html>
@@ -13,10 +15,13 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="/homes/1">PHOTOS<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
+        <a class="nav-link" href="#">ART</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">VIDEO</a>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -39,6 +44,7 @@
 <body>
 <br/>
 <br/>
+<h4>To contact me please enter your email and name here.</h4>
 <%= form_for @home do |f| %>
 <%= f.label :name %>
 <%= f.text_field :name %>
@@ -46,4 +52,8 @@
 <%= f.text_field :email %>
 <%= f.submit :enter %>
 <% end %>
+
+
+
+<%= image_tag("black.png") %>
 
