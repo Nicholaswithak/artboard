@@ -12,10 +12,13 @@ class HomesController < ApplicationController
   end
 
   def home_params
-    params.require(:home).permit(:name, :email)
+    params.require(:home).permit(:name, :email, :age)
   end
 
   def show
+  end
+
+  def age
   end
 
 end
